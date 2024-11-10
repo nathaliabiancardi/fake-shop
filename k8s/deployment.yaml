@@ -12,7 +12,7 @@ spec:
       annotations:
         prometheus.io/scrape: 'true'
         prometheus.io/port: '5000'
-        promethus.io/path: '/metrics'
+        prometheus.io/path: '/metrics'
       labels:
         app: postgre
     spec:
